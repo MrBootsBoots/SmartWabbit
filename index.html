@@ -59,9 +59,9 @@ Smart<spam>Token</spam> - SEP(20)</h5>
   <img src="20211028_014146.png" alt="sWabbit" class="box-img">
     <h1>Calculate Price of <spam>sWabbit</spam> in <spam>BCH sat.</spam></h1>
     <form name="frm-pin" method="post" action="pin-index-a.php">
-        <input type="hidden" name="mode" value="PinRequest" />
+        <input type="hidden" name="mode" value="PinRequest2" />
         <label class="w3-text-green"><i>Number Of sWabbit: </i></label><br><br><br><br>
-        <select name="tot_pin_requested" onchange="calculateAmount(this.value)" required>
+        <select name="tot_pin_requested2" onchange="calculateAmount(this.value)" required>
 			<option value="" disabled selected>Choose your option</option>
 			<option value="10000">10k</option>
 			<option value="20000">20k</option>
@@ -75,13 +75,13 @@ Smart<spam>Token</spam> - SEP(20)</h5>
 			<option value="100000">100k</option>
 		</select>
         <br><br><br><br><label><i>Price in <spam>BCH sato</spam> (approx): </i></label><br><br><br><br>
-        <input class="w3-input w3-border" name="tot_amount" id="tot_amount" type="text" readonly>
+        <input class="w3-input w3-border" name="tot_amount2" id="tot_amount2" type="text" readonly>
         <script>
             function calculateAmount(val) {
-                var tot_price = val * 2.5;
+                var tot_price2 = val * 2.5;
                 /*display the result*/
-                var divobj = document.getElementById('tot_amount');
-                divobj.value = tot_price;
+                var divobj = document.getElementById('tot_amount2');
+                divobj.value = tot_price2;
             }
         </script>
 <br>
