@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, green, crimson) no-repeat;
+  background-color: linear-gradient(to right, green, crimson) no-repeat;
   background-size: cover;
 }
 .box{
