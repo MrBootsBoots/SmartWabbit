@@ -20,6 +20,7 @@ body{
 }
 .box h1{
   font-size: 40px;
+  font-family: courier;
   letter-spacing: 4px;
   font-weight: 100;
 }
