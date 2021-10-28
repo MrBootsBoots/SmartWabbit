@@ -71,7 +71,7 @@ a {
 }
 
 #preloader {
-  background: #000;
+  background: #000 url(20211028_014146.png) no-repeat center center;
   height: 100vh;
   width: 100%;
   position: fixed;
