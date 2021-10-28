@@ -29,22 +29,22 @@ Smart<spam>Token</spam> - SEP(20)</h5>
         <label class="w3-text-green"><i>Number Of sWabbit: </i></label><br><br><br><br>
         <select name="tot_pin_requested" onchange="calculateAmount(this.value)" required>
 			<option value="" disabled selected>Choose your option</option>
-			<option value="10000">10k</option>
-			<option value="20000">20k</option>
-			<option value="30000">30k</option>
-			<option value="40000">40k</option>
-			<option value="50000">50k</option>
-			<option value="60000">60k</option>
-			<option value="70000">70k</option>
-			<option value="80000">80k</option>
-			<option value="90000">90k</option>
-			<option value="100000">100k</option>
+			<option value="1">1</option>
+			<option value="100">100</option>
+			<option value="200">200</option>
+			<option value="500">500</option>
+			<option value="800">800</option>
+			<option value="1000">1k</option>
+			<option value="2000">2k</option>
+			<option value="3000">8k</option>
+			<option value="4000">4k</option>
+			<option value="5000">5k</option>
 		</select>
         <br><br><br><br><label><i>Price in usds (approx): </i></label><br><br><br><br>
         <input class="w3-input w3-border" name="tot_amount" id="tot_amount" type="text" readonly>
         <script>
             function calculateAmount(val) {
-                var tot_price = val * 0.000015;
+                var tot_price = val * 0.00000;
                 /*display the result*/
                 var divobj = document.getElementById('tot_amount');
                 divobj.value = tot_price;
@@ -63,22 +63,22 @@ Smart<spam>Token</spam> - SEP(20)</h5>
         <label class="w3-text-green"><i>Number Of sWabbit: </i></label><br><br><br><br>
         <select name="tot_pin_requested2" onchange="calculateAmountt(this.value)" required>
 			<option value="" disabled selected>Choose your option</option>
-			<option value="10000">10k</option>
-			<option value="20000">20k</option>
-			<option value="30000">30k</option>
-			<option value="40000">40k</option>
-			<option value="50000">50k</option>
-			<option value="60000">60k</option>
-			<option value="70000">70k</option>
-			<option value="80000">80k</option>
-			<option value="90000">90k</option>
-			<option value="100000">100k</option>
+			<option value="1">1</option>
+			<option value="100">100</option>
+			<option value="200">200</option>
+			<option value="500">500</option>
+			<option value="800">800</option>
+			<option value="1000">1k</option>
+			<option value="2000">2k</option>
+			<option value="3000">3k</option>
+			<option value="4000">4k</option>
+			<option value="5000">5k</option>
 		</select>
         <br><br><br><br><label><i>Price in <spam>BCH sato</spam> (approx): </i></label><br><br><br><br>
         <input class="w3-input w3-border" name="tot_amount2" id="tot_amount2" type="text" readonly>
         <script>
             function calculateAmountt(val) {
-                var tot_price2 = val * 2.5;
+                var tot_price2 = val * 0;
                 /*display the result*/
                 var divobj = document.getElementById('tot_amount2');
                 divobj.value = tot_price2;
