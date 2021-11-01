@@ -65,6 +65,7 @@ spam3 {
 }
 .tinfo {
   color: white;
+  font-family: monospace, consolas, serif;
 }
 a {
   color: white;
